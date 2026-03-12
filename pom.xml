@@ -45,6 +45,20 @@
             <artifactId>iDXPGrid</artifactId>
             <version>1</version>
         </dependency>
+	<dependency>
+           <groupId>com.pilog.mdm.cloud</groupId>
+           <artifactId>iDXPBusinessLogic</artifactId>
+           <version>1</version>
+           <scope>system</scope>
+           <systemPath>${project.basedir}/lib/iDXPBusinessLogic-1.jar</systemPath>
+    	</dependency>
+	<dependency>
+           <groupId>com.pilog.mdm.cloud</groupId>
+           <artifactId>iDXPGrid</artifactId>
+           <version>1</version>
+           <scope>system</scope>
+           <systemPath>${project.basedir}/lib/iDXPGrid-1.jar</systemPath>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
